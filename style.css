@@ -714,7 +714,11 @@ h6 {
 }
 
 /* second mobile  */
-
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 380px;
+    margin: 0 auto;
+  }
 
 /* mini mobile  */
 
