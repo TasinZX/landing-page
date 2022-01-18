@@ -524,6 +524,7 @@ h6 {
   }
   .card-wrapper .card {
     width: 100%;
+    text-align: center;
   }
   .card-wrapper button {
     display: none;
@@ -595,11 +596,55 @@ h6 {
 
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 440px;
+    max-width: 430px;
     margin: 0 auto;
+  }
+  .main p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .main h2{
+    font-size: 35px;
+  }
+
+  .hero .text h2{
+    font-size: 35px;
+  }
+  .hero .text p{
+    font-size: 16px;
+    font-weight: 300;
   }
   .hero .img img {
     width: 100%;
+  }
+  .topbar-bottom h2{
+    font-size: 35px;
+  }
+  .topbar-bottom p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .second .left-text h2{
+    font-size: 35px;
+  }
+
+  .second .left-text p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .third-wrapper .header h2{
+    font-size: 35px;
+  }
+  .third-wrapper .header h3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .third-wrapper .card p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .third-wrapper .card span.btn{
+    font-size: 14px;
   }
   .right-img img {
     width: 100%;
@@ -607,8 +652,38 @@ h6 {
   .four-wrapper .img img {
     width: 100%;
   }
+  .four-wrapper .left-text h2{
+    font-size: 35px;
+  }
+  .four-wrapper .left-text p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .pricing-card h2{
+    font-size: 35px;
+  }
+
+  .pricing-card p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .pricing-card .top-head span{
+    font-size: 16px;
+  }
   .last-wrapper .left img {
     width: 100%;
+  }
+  .last-wrapper .left h2{
+    font-size: 35px;
+  }
+
+  .last-wrapper .left p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .last-wrapper .launch-card p{
+    font-size: 16px;
+    font-weight: 300;
   }
   .under-section .div-1 p,
   .under-section .div-2 p,
@@ -637,6 +712,9 @@ h6 {
     width: 100%;
   }
 }
+
+/* second mobile  */
+
 
 /* mini mobile  */
 
