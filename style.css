@@ -208,6 +208,10 @@ h3 {
 h6 {
   color: var(--font-color);
 }
+/* owl  */
+.owl-stage{
+  padding-top: 3rem;
+}
 
 .card-wrapper .card {
   background-color: var(--secondary-background);
@@ -241,7 +245,7 @@ h6 {
 
 .card-wrapper .card span {
   position: absolute;
-  top: 1rem;
+  top: -2rem;
   right: 3.5rem;
 }
 
@@ -371,7 +375,7 @@ h6 {
 
 .pricing-card span.top-head {
   position: absolute;
-  top: -1rem;
+  top: -4rem;
   transform: translate(50%,50%);
   text-align: center;
   font-weight: 500;
@@ -430,7 +434,7 @@ h6 {
 .launch-card .top {
   position: absolute;
   top: -1.5rem;
-  right: 6.5rem;
+  right: 7.5rem;
 }
 
 .launch-card .top-left {
@@ -646,6 +650,10 @@ h6 {
   .third-wrapper .card span.btn{
     font-size: 14px;
   }
+  .third-wrapper .card span{
+    top: -1rem;
+    right: 5rem;
+  }
   .right-img img {
     width: 100%;
   }
@@ -703,7 +711,11 @@ h6 {
   }
   .pricing-card span.top-head {
     transform: translate(-50%,50%);
-    top: -2.6rem;
+    top: -6rem;
+    z-index: 9999;
+  }
+  .pricing-card span.right-head {
+    top: 6rem;
   }
   .launch-card .top {
     right: 3rem;
